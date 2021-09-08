@@ -1,0 +1,29 @@
+*,
+::before,
+::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  font-size: $regular-font;
+  overflow-x: hidden;
+}
+
+.lecend-deca-font {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.big-shoulder-display-font {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.button {
+  border-radius: 50px;
+  background-color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.6rem;
+}
